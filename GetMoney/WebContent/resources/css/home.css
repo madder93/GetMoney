@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+*{
+	font-size:14px;
+	margin:0 auto;
+	padding:0;
+}
+
+#wrapper{
+	width:80%;
+	height:auto;
+	margin:0 auto;
+	border:1px solid #000;
+}
+
+#head{
+	height:250px;
+}
+
+#title{
+	height:200px;
+	border:1px solid #000;
+}
+
+#menu{
+	height:50px;
+	border:1px solid #000;
+}
+
+#footer{
+	height:50px;
+	text-align:center;
+	color:#999;
+	line-height:50px;
+	border:1px solid #000;
+}
+
+#body{
+	margin-top:4px;
+}
+
+#left{
+	width:20%;
+	border:1px solid #000;
+	float:left;
+}
+
+#center{
+	width:79%;
+	border:1px solid #000;
+	float:right;
+}
+
+#searchName{
+	height:40px;
+	border:1px solid #000;
+}
+
+#searchType{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#searchType li{
+	list-style-type:none;
+	height:22px;
+	line-height:22px;
+	cursor:pointer;
+}
